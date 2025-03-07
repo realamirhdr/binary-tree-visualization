@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-zinc-300">
+    <header class="flex flex-col items-center mt-3 ">
+        <div class="flex flex-col items-center text-2xl rounded-md">
+            <h1 class="font-bold p-2" id="header-text">This is the StringTree</h1>
+        </div>
+    </header>
+    <main>
+        <div class="flex flex-col items-center">
+            <div class="flex flex-col m-3">
+                <input id="input" class="bg-sky-50 border-1 border-neutral-700 rounded-md text-xs w-50 placeholder:text-gray-500 placeholder:text-xs p-1 flex flex-col" placeholder="Enter space separated string:">
+            </div>
+
+
+            <div class="flex flex-col items-center m-3">
+                <div id="result"></div>
+            </div>
+
+
+        </div>
+    </main>
+    <div class="flex flex-col items-center text-xs mt-4">
+        <footer>
+            <p>&copy; 2025 Lithium </p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="old_script.js"></script> -->
+</body>
+</html>
